@@ -4,7 +4,7 @@
 
 This project develops a **Multimodal Detection System** that integrates **Capacitive Sensing** and **Triboelectric Nanogenerator (TENG)** technologies for a range of applications. The system includes both embedded hardware and software components, as well as a host software interface for data visualization and analysis.
 
-![](.\Hardware\HaredwarImage\main.jpg)
+![](./Hardware/HaredwarImage/main.jpg)
 
 ### System Components:
 
@@ -21,7 +21,7 @@ This project develops a **Multimodal Detection System** that integrates **Capaci
    - **Visualization**: A graphical user interface (GUI) is developed using C++ and QT to display real-time data from the sensors.
    - **Data Logging and Analysis**: The system logs sensor data and allows for advanced analysis, including Fourier Transform (FFT) processing for frequency domain analysis.
 
-   ![](.\Software\Oscilloscope\img\main.png)
+   ![](./Software/Oscilloscope/img/main.png)
 
 3. **Hardware Design**:
 
@@ -44,14 +44,12 @@ This project develops a **Multimodal Detection System** that integrates **Capaci
 
 - **Hardware**: Contains all hardware design files, including schematics and PCB layouts for capacitive sensors, TENG interface, and the STM32-based board.
 
-- Software
-
-  :
+- Software:
 
   - **DataProcess**: Python scripts for data analysis, including FIR filtering and FFT processing.
   - **Oscilloscope**: QT-based software for real-time data visualization and serial communication with the STM32.
   - **STM32**: Firmware source code for STM32, including drivers, middleware, and FreeRTOS configuration.
-
+  
 - **REF**: Documentation, datasheets, and application notes for hardware components, including FDC2214 and STM32 microcontroller.
 
 ------

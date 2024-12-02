@@ -2,7 +2,7 @@
 
 本项目开发了一种**电容与摩擦电纳米发电机（TENG）多模态检测系统**，用于多个应用场景。系统包括嵌入式硬件与软件组件，以及用于数据可视化和分析的上位机软件接口。
 
-![](.\Hardware\HaredwarImage\main.jpg)
+![](./Hardware/HaredwarImage/main.jpg)
 
 ### 系统组成：
 
@@ -15,7 +15,7 @@
   - **数据可视化**：采用C++和QT开发图形用户界面（GUI），实时显示传感器数据。
   - **数据记录与分析**：系统支持传感器数据的记录，并允许进行FFT等频域分析。
 
-![](.\Software\Oscilloscope\img\main.png)
+![](./Software/Oscilloscope/img/main.png)
 
 - **硬件设计**：
   - 项目包括多种电路原理图和PCB设计文件，用于STM32与FDC2214和TENG传感器的接口设计。这些文件位于`Hardware`目录中。
